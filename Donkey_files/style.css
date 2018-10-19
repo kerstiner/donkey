@@ -1,0 +1,326 @@
+@font-face{
+	font-family: "Gibson-Regular";
+	src: url(../fonts/Gibson-Regular.ttf);
+}
+@font-face{
+	font-family: "Gibson-Light";
+	src: url(../fonts/Gibson-Light.otf);
+}
+@font-face{
+	font-family: "Gibson-SemiBold";
+	src: url(../fonts/Gibson-SemiBold.otf);
+}
+@font-face{
+	font-family: "EBGaramond08-Regular";
+	src: url(../fonts/EBGaramond08-Regular.ttf);
+}
+@font-face{
+	font-family: "HKGrotesk-Regular";
+	src: url(../fonts/HKGrotesk-Regular.otf);
+}
+.para{
+	 width: 700px;
+  	height: 43px;
+  	font-family: "HKGrotesk-Regular",sans-serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: var(--charcoal-grey);
+}
+.mini-title{
+	width: 129px;
+  	height: 31px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 24px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 0.42;
+  	letter-spacing: 0.7px;
+  	color: #707070;
+}
+.mini-title2{
+	width: 126px;
+  	height: 20px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: 0.5px;
+  	color: #00c7f7;
+}
+.names{
+	width: 101px;
+  	height: 18px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 14px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.29;
+  	letter-spacing: 0.4px;
+  	color: #707070;
+}
+.hashtag{
+	width: 62px;
+  	height: 18px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 14px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.29;
+  	letter-spacing: 0.4px;
+  	color: #008aaa;
+}
+.section1{
+	padding: 20px 20px 20px 20px;
+}
+.avatar{
+	border-radius: 30px;
+}
+.nav-link{
+	margin-right: 64px;
+	width: 47px;
+  	height: 20px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: 0.5px;
+  	color: black;
+}
+.col-md-4 .nav-profpic .avatar{
+	width: 36px;
+  	height: 36px;
+}
+.section2{
+	padding: 20px 20px 20px 20px;
+}
+.search .search-box{
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+	border: none;
+	width: 659px;
+  	height: 42px;
+  	border-radius: 20px;
+  	border: solid 1px #f5f7fc;
+    background-image: linear-gradient(to left, #f5f7fc, #f5f7fc);
+}
+.section3{
+	padding: 5px 68px 0 3px;
+}
+.section3-a{
+	width: 62px;
+  	height: 18px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 14px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.29;
+  	letter-spacing: 0.4px;
+  	text-align: left;
+ 	color: gray;
+}
+.section3-sub1{
+	padding: 20px 20px 20px 20px;
+}
+.section3-button{
+	color: white;
+	width: 184px;
+  	height: 48px;
+  	border-radius: 2px;
+  	border: solid 1px #00c7f7;
+  	background-color: #00c7f7;
+
+}
+.button-section3{
+	padding: 20px 20px 20px 20px;
+}
+.section4{
+	padding-bottom: 80px;
+}
+.recent{
+	width: 137px;
+  	height: 18px;
+  	font-family: "Gibson-Regular", sans-serif;
+  	font-size: 14px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.71;
+  	letter-spacing: 1.4px;
+  	color: var(--silver);
+
+}
+.side-littleavatar{
+	border-radius: 30px;
+	width: 20px;
+  	height: 20px;
+}
+.section4-side{
+	width: 142px;
+  	height: 39px;
+  	border-radius: 4px;
+  	border: solid 1px #00c7f7;
+	font-size: 12px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 2;
+  	letter-spacing: normal;
+  	color: #00c7f7;
+}
+.star-design{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.section4-sidecomment{
+	width: 399px;
+  	height: 37px;
+  	border-radius: 20px;
+ 	border: solid 1px #f5f7fc;
+ 	background-color: #ffffff;
+	font-family: Gibson;
+  	font-size: 14px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.71;
+  	letter-spacing: normal;
+  	color: #b7bbc7;
+}
+.designinstruct{
+	width: 606px;
+    height: 262px;
+}
+.books{
+	padding-bottom: 50px;
+    height: 331px;
+    width: 190px;
+}
+.fluffsquad{
+	border-radius: 30px;
+	width: 40px;
+  	height: 40px;
+}
+.vr{
+	border-left: 6px solid green;
+    height: 500px;
+}
+.section4-sub1{
+	padding: 20px 20px 20px 20px;
+}
+.side-pic1{
+	padding-top: 20px;
+}
+.side-comment{
+	padding-bottom: 49px;
+	width: 459px;
+  	height: 44px;
+  	font-family:  "HKGrotesk-Regular",sans-serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: normal;
+  	color: var(--charcoal-grey);
+}
+.side-comment1{
+	padding-bottom: 53px;
+	padding-top: 17px;
+	width: 459px;
+  	height: 44px;
+  	font-family:  "HKGrotesk-Regular",sans-serif;
+  	font-size: 16px;
+  	font-weight: normal;
+ 	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: normal;
+  	color: var(--charcoal-grey);
+}
+.side-comment2{
+	padding-top: 40px;
+	width: 459px;
+  	height: 44px;
+  	font-family:  "HKGrotesk-Regular",sans-serif;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: normal;
+  	color: var(--charcoal-grey);
+}
+.side-recent{
+	padding: 47px 20px 20px 20px;
+}
+.side-pic{
+	padding-bottom: 29px;
+    width: 435px;
+    height: 222px;
+    padding-top: 49px;
+}
+.section7{
+	padding-bottom: 80px;
+}
+.section7-images{
+	padding-bottom: 20px;
+    width: 256px;
+    height: 315px;
+    border-radius: 2px;
+
+}
+.section8{
+	padding-bottom: 80px;
+}
+.section11{
+	padding-bottom: 200px;
+}
+.section11-images{
+	margin: 33px 19px 15px 27px;
+	width: 187.4px;
+    height: 284.8px;
+}
+.section11-price{
+	border: none;
+	width: 74px;
+  	height: 28px;
+  	border-radius: 30px;
+  	background-color: #7adb9a;
+	font-size: 14px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.29;
+  	letter-spacing: 0.4px;
+  	color: #ffffff;
+}
+.section11-img{
+	margin: 19px 2px 6px 10px;
+}
+.fluffsquad-section11{
+	border-radius: 30px;
+	width: 40px;
+  	height: 40px;
+}
+.rectangle{
+	width: 258.4px;
+    height: 424.5px;
+  	box-shadow: 0 3px 6px 0 rgba(227, 227, 227, 0.16);
+  	border: solid 1px #f7f7f7;
+  	background-color: #ffffff;
+}
+hr{
+	padding-top: 19px;
+}
