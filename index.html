@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Donkey</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -12,7 +13,7 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 nav-nav">
+					<div class="col-md-4 col-lg-6 nav-nav">
 						<nav>
 							<ul class="nav">
 								<li class="nav-item">
@@ -27,16 +28,17 @@
 							</ul>
 						</nav>
 					</div>
-					<div class="col-md-4 nav-nav1 text-center">
+					<div class="col-md-4  col-lg-2 nav-nav1">
 						<img src="images/logo.png">
 					</div>
-					<div class="col-md-4 nav-nav text-right">
-						<span class="fas fa-bell"></span>
-						<span class="fas fa-inbox"></span>
-						<span class="nav-profpic">
-							<img src="images/girl1.jpeg" class="avatar">
-						</span>
-						<span class="fas fa-caret-down"></span>
+					<div class="col-md-4 col-lg-4 nav-nav text-right">
+						<div class="right-nav">
+							<span class="fas fa-bell"></span>
+							<span class="fas fa-inbox"></span>
+							<span class="nav-profpic">
+							<img src="images/girl1.jpeg" class="avatar"></span>
+							<span class="fas fa-caret-down"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -58,31 +60,31 @@
 	<div class="section3">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">CULTURE</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">TECH</a>
 				</div>
-				<div class="col-md-2 section3-sub1">
+				<div class="col-md-2 section3-sub2">
 					<a href="#" class="section3-a">ENTREPRENEURSHIP</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">SELF</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">POLITICS</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">DESIGN</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">SCIENCE</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">POPULAR</a>
 				</div>
-				<div class="col-md-1 section3-sub1">
+				<div class="col-md-1 section3-sub2">
 					<a href="#" class="section3-a">EXPLORE</a>
 				</div>
 				<div class="col-md-2 section3-sub1">
@@ -107,11 +109,13 @@
 									<br><p class="hashtag">#art</p>
 								</div>
 								<div class="col-md-7 star-design text-right">
-									<span class="fas fa-star"></span>
-									<span class="fas fa-star"></span>
-									<span class="fas fa-star"></span>
-									<span class="fas fa-star"></span>
-									<span class="fas fa-star"></span>
+									<fieldset class="rating">
+										<input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+										<input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+										<input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+										<input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+										<input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+									</fieldset>
 								</div>
 							</div>    
 							<p>A Gentleman in Moscow: A Novel</p>
@@ -141,11 +145,13 @@
 										<p class="hashtag">#dance</p>
 									</div>
 									<div class="col-md-7 text-right">
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
+										<fieldset class="rating">
+										    <input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+										    <input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+										    <input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+										    <input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+										    <input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+										</fieldset>
 									</div>
 								</div>  
 								<p>A Gentleman in Moscow: A Novel</p>
@@ -155,7 +161,7 @@
 										<img src="images/woman.jpeg" class="fluffsquad">
 									</div>
 									<div class="col-md-10">
-										 <p class="names">Fluff Squad <br> 3 hours ago</p>
+										 <p class="names-section4A">Fluff Squad <br> 3 hours ago</p>
 									</div>
 								</div>	
 							</div>
@@ -174,11 +180,13 @@
 										<p  class="hashtag">#dance</p>
 									</div>
 									<div class="col-md-7 text-right">
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
+										<fieldset class="rating">
+										    <input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+										    <input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+										    <input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+										    <input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+										    <input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+										</fieldset>
 									</div>
 								</div>    
 								<p>10 Most Worth Reading Web Design Articles in The First Half of 2018</p>
@@ -188,7 +196,7 @@
 										<img src="images/fluffsquad2.jpeg" class="fluffsquad"> 
 									</div>
 									<div class="col-md-10">
-										 <p class="names">Fluff Squad <br> 3 hours ago</p>
+										 <p class="names-section4A">Fluff Squad <br> 3 hours ago</p>
 									</div>
 								</div>
 							</div>
@@ -207,11 +215,13 @@
 										<p class="hashtag">#dance</p>
 									</div>
 									<div class="col-md-7 text-right">
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
-										<span class="fas fa-star"></span>
+										<fieldset class="rating">
+										    <input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+										    <input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+										    <input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+										    <input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+										    <input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+										</fieldset>
 									</div>
 								</div> 
 								<p>10 Most Worth Reading Web Design Articles in The First Half of 2018</p>
@@ -221,7 +231,7 @@
 										<img src="images/fluffsquad2.jpeg" class="fluffsquad"> 
 									</div>
 									<div class="col-md-10">
-										<p class="names">Fluff Squad <br> 3 hours ago</p>
+										<p class="names-section4A">Fluff Squad <br> 3 hours ago</p>
 									</div>
 								</div>
 							</div>
@@ -237,12 +247,12 @@
 								<button class="section4-side">Message</button>
 							</div>
 							<div class="col-md-6 side-side">
-								<div class="row">
+								<div class="row float-md-right">
 									<div class="col-md-3">
-										<img src="images/whitney.jpg" class="fluffsquad">
+										<img src="images/whitney.jpg" class="fluffsquad-section4">
 									</div>
 									<div class="col-md-8">
-										<p class="names">James Bay <br> 3 hours ago</p>
+										<p class="names-section4">James Bay <br> 3 hours ago</p>
 									</div>
 								</div>
 							</div>
@@ -271,12 +281,12 @@
 							<div class="col-md-6">
 							</div>
 							<div class="col-md-6">
-								<div class="row">
+								<div class="row float-md-right">
 									<div class="col-md-3">
-										<img src="images/whitney.jpg" class="fluffsquad">
+										<img src="images/whitney.jpg" class="fluffsquad-section4">
 									</div>
 									<div class="col-md-8">
-										<p class="names">James Bay <br> 3 hours ago</p>
+										<p class="names-section4">James Bay <br> 3 hours ago</p>
 									</div>
 								</div>
 							</div>
@@ -291,12 +301,12 @@
 								<button class="section4-side">Message</button>
 							</div>
 							<div class="col-md-6">
-								<div class="row">
+								<div class="row float-md-right">
 									<div class="col-md-3">
-										<img src="images/whitney.jpg" class="fluffsquad">
+										<img src="images/whitney.jpg" class="fluffsquad-section4">
 									</div>
 									<div class="col-md-8">
-										<p class="names">James Bay <br> 3 hours ago</p>
+										<p class="names-section4">James Bay <br> 3 hours ago</p>
 									</div>
 								</div>
 							</div>
@@ -326,12 +336,12 @@
 								<button class="section4-side">Message</button>
 							</div>
 							<div class="col-md-6">
-								<div class="row">
+								<div class="row float-md-right">
 									<div class="col-md-3">
-										<img src="images/whitney.jpg" class="fluffsquad">
+										<img src="images/whitney.jpg" class="fluffsquad-section4">
 									</div>
 									<div class="col-md-8">
-										<p class="names">James Bay <br> 3 hours ago</p>
+										<p class="names-section4">James Bay <br> 3 hours ago</p>
 									</div>
 								</div>
 							</div>
@@ -383,12 +393,14 @@
 					</div> 
 					<p class="section7-content">The Global 1% Is Destroying Democracy</p>
 					<div class="row">
-						<div class="col-md-12">
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
+						<div class="col-md-12 float-md-left">
+							<fieldset class="rating">
+								<input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+								<input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+								<input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+								<input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+								<input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+							</fieldset>
 						</div>
 					</div>
 					<br>
@@ -414,11 +426,13 @@
 					<p class="section7-content">Users Don’t Want Filters, They Want <br>Better Content</p>
 					<div class="row">
 						<div class="col-md-12">
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
+							<fieldset class="rating">
+								<input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+								<input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+								<input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+								<input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+								<input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+							</fieldset>
 						</div>
 					</div>
 					<br>
@@ -444,11 +458,13 @@
 					<p class="section7-content">Wookie the Husky loves to sing the barritone parts of songs with his owner!</p>
 					<div class="row">
 						<div class="col-md-12">
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
+							<fieldset class="rating">
+								<input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+								<input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+								<input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+								<input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+								<input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+							</fieldset>
 						</div>
 					</div>
 					<br>
@@ -474,11 +490,13 @@
 					<p class="section7-content">Wookie the Husky loves to sing the barritone parts of songs with his owner!</p>
 					<div class="row">
 						<div class="col-md-12">
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
-							<span class="fas fa-star"></span>
+							<fieldset class="rating">
+								<input type="radio" id="star5" name="rating" value="5" /><label for="star5">5 stars</label>
+								<input type="radio" id="star4" name="rating" value="4" /><label for="star4">4 stars</label>
+								<input type="radio" id="star3" name="rating" value="3" /><label for="star3">3 stars</label>
+								<input type="radio" id="star2" name="rating" value="2" /><label for="star2">2 stars</label>
+								<input type="radio" id="star1" name="rating" value="1" /><label for="star1">1 star</label>
+							</fieldset>
 						</div>
 					</div>
 					<br>
