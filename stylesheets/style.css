@@ -1,0 +1,528 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Gibson-Regular";
+  src: url(../fonts/Gibson-Regular.ttf);
+}
+@font-face {
+  font-family: "Gibson-Light";
+  src: url(../fonts/Gibson-Light.otf);
+}
+@font-face {
+  font-family: "Gibson-SemiBold";
+  src: url(../fonts/Gibson-SemiBold.otf);
+}
+@font-face {
+  font-family: "EBGaramond08-Regular";
+  src: url(../fonts/EBGaramond08-Regular.ttf);
+}
+@font-face {
+  font-family: "HKGrotesk-Regular";
+  src: url(../fonts/HKGrotesk-Regular.otf);
+}
+/* line 1, ../sass/pages/sections.scss */
+.section1 {
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 8, ../sass/pages/sections.scss */
+.fa-bell .fa-inbox .fa-caret-down {
+  margin-right: 20px;
+}
+
+/* line 19, ../sass/pages/sections.scss */
+.col-md-4 .nav-profpic .avatar {
+  width: 36px;
+  height: 36px;
+}
+
+/* line 28, ../sass/pages/sections.scss */
+.search .search-box {
+  font-family: "Gibson-Light", sans-serif;
+  border: none;
+  width: 659px;
+  height: 42px;
+  border-radius: 20px;
+  border: solid 1px #f5f7fc;
+  background-image: linear-gradient(to left, #f5f7fc, #f5f7fc);
+}
+
+/* line 38, ../sass/pages/sections.scss */
+.names-section4A {
+  margin-left: 12px;
+}
+/* line 41, ../sass/pages/sections.scss */
+.names-section4A .names-section4 {
+  margin-left: 63px;
+  width: 101px;
+  height: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  color: #707070;
+}
+
+/* line 55, ../sass/pages/sections.scss */
+.fa-heart {
+  width: 16px;
+}
+/* line 60, ../sass/pages/sections.scss */
+.fa-heart .fa-share-alt .fa-bookmark {
+  margin-right: 10px;
+  width: 11px;
+  height: 14px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #008aaa;
+}
+
+/* line 77, ../sass/pages/sections.scss */
+.fluffsquad .fluffsquad-section4 {
+  margin-left: 70px;
+}
+/* line 80, ../sass/pages/sections.scss */
+.fluffsquad .fluffsquad-section4 .fluffsquad-section11 {
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 87, ../sass/pages/sections.scss */
+.side-comment {
+  padding-bottom: 49px;
+}
+/* line 90, ../sass/pages/sections.scss */
+.side-comment .side-comment1 {
+  padding-bottom: 53px;
+  padding-top: 17px;
+}
+/* line 94, ../sass/pages/sections.scss */
+.side-comment .side-comment1 .side-comment2 {
+  padding-top: 40px;
+  width: 459px;
+  height: 44px;
+  font-family: "HKGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+/* line 109, ../sass/pages/sections.scss */
+.mini-title {
+  width: 129px;
+  height: 31px;
+  font-size: 24px;
+  line-height: 0.42;
+  letter-spacing: 0.7px;
+  color: #707070;
+}
+/* line 117, ../sass/pages/sections.scss */
+.mini-title .mini-title2 {
+  width: 126px;
+  height: 20px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #00c7f7;
+}
+
+/* line 130, ../sass/pages/sections.scss */
+.section3-sub1 {
+  padding: 20px 20px 20px 20px;
+}
+/* line 133, ../sass/pages/sections.scss */
+.section3-sub1 .section3-sub2 {
+  margin-top: 11px;
+}
+
+/* line 138, ../sass/pages/sections.scss */
+.names {
+  width: 101px;
+  height: 18px;
+  color: #707070;
+}
+/* line 143, ../sass/pages/sections.scss */
+.names .hashtag {
+  width: 62px;
+  height: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  color: #008aaa;
+}
+
+/* line 157, ../sass/pages/sections.scss */
+hr {
+  padding-top: 19px;
+}
+
+/* line 160, ../sass/pages/sections.scss */
+.bold {
+  width: 110px;
+  height: 22px;
+  font-family: "Gibson-Semibold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.56;
+  letter-spacing: 0.5px;
+  color: #707070;
+}
+
+/* line 173, ../sass/pages/sections.scss */
+.rectangle {
+  width: 258.4px;
+  height: 424.5px;
+  box-shadow: 0 3px 6px 0 rgba(227, 227, 227, 0.16);
+  border: solid 1px #f7f7f7;
+  background-color: #FFFFFF;
+}
+
+/* line 180, ../sass/pages/sections.scss */
+.para {
+  width: 700px;
+  height: 43px;
+  font-family: "HKGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--charcoal-grey);
+}
+
+/* line 193, ../sass/pages/sections.scss */
+.nav-nav {
+  padding-top: 42px;
+}
+
+/* line 196, ../sass/pages/sections.scss */
+.nav-nav1 {
+  padding-top: 19px;
+  padding-left: 20px;
+}
+
+/* line 200, ../sass/pages/sections.scss */
+.avatar {
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+/* line 204, ../sass/pages/sections.scss */
+.nav-link {
+  margin-right: 64px;
+  width: 47px;
+  height: 20px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+/* line 218, ../sass/pages/sections.scss */
+.section2 {
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 222, ../sass/pages/sections.scss */
+.section3 {
+  padding: 5px 68px 0 3px;
+}
+
+/* line 225, ../sass/pages/sections.scss */
+.section3-a {
+  width: 62px;
+  height: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #808080;
+}
+
+/* line 238, ../sass/pages/sections.scss */
+.section3-button {
+  color: #FFFFFF;
+  width: 184px;
+  height: 48px;
+  border-radius: 2px;
+  border: solid 1px #00c7f7;
+  background-color: #00c7f7;
+}
+
+/* line 247, ../sass/pages/sections.scss */
+.button-section3 {
+  margin-bottom: 66px;
+}
+
+/* line 250, ../sass/pages/sections.scss */
+.section4 {
+  padding-bottom: 80px;
+}
+
+/* line 253, ../sass/pages/sections.scss */
+.section4-side {
+  background-color: #FFFFFF;
+  width: 142px;
+  height: 39px;
+  border-radius: 4px;
+  border: solid 1px #00c7f7;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #00c7f7;
+}
+
+/* line 267, ../sass/pages/sections.scss */
+.section4-sidecomment {
+  margin-top: 32px;
+  width: 399px;
+  height: 37px;
+  border-radius: 20px;
+  border: solid 1px #f5f7fc;
+  background-color: #FFFFFF;
+  font-family: "Gibson-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #b7bbc7;
+}
+
+/* line 283, ../sass/pages/sections.scss */
+.recent {
+  width: 137px;
+  height: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 1.4px;
+  color: var(--silver);
+}
+
+/* line 296, ../sass/pages/sections.scss */
+.side-littleavatar {
+  border-radius: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 301, ../sass/pages/sections.scss */
+.star-design {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* line 306, ../sass/pages/sections.scss */
+.side-hashtag {
+  width: 80px;
+  height: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #008aaa;
+}
+
+/* line 319, ../sass/pages/sections.scss */
+.designinstruct {
+  width: 606px;
+  height: 262px;
+}
+
+/* line 323, ../sass/pages/sections.scss */
+.books {
+  padding-bottom: 50px;
+  height: 331px;
+  width: 190px;
+}
+
+/* line 329, ../sass/pages/sections.scss */
+.section4-sub1 {
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 332, ../sass/pages/sections.scss */
+.side-pic1 {
+  padding-top: 20px;
+}
+
+/* line 336, ../sass/pages/sections.scss */
+.side-recent {
+  padding: 6px 0px 20px 20px;
+}
+
+/* line 339, ../sass/pages/sections.scss */
+.side-pic {
+  padding-bottom: 29px;
+  width: 435px;
+  height: 222px;
+  padding-top: 49px;
+}
+
+/* line 345, ../sass/pages/sections.scss */
+.section7 {
+  padding-bottom: 80px;
+}
+
+/* line 348, ../sass/pages/sections.scss */
+.section7-images {
+  padding-bottom: 20px;
+  width: 256px;
+  height: 315px;
+  border-radius: 2px;
+}
+
+/* line 355, ../sass/pages/sections.scss */
+.section7-content {
+  width: 300px;
+  height: 41px;
+  font-family: "EBGaramond08-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: var(--charcoal-grey);
+}
+
+/* line 368, ../sass/pages/sections.scss */
+.section8 {
+  padding-bottom: 80px;
+}
+
+/* line 371, ../sass/pages/sections.scss */
+.section11 {
+  padding-bottom: 200px;
+}
+
+/* line 374, ../sass/pages/sections.scss */
+.section11-images {
+  margin: 33px 19px 15px 27px;
+  width: 187.4px;
+  height: 284.8px;
+}
+
+/* line 379, ../sass/pages/sections.scss */
+.section11-price {
+  border: none;
+  width: 74px;
+  height: 28px;
+  border-radius: 30px;
+  background-color: #7adb9a;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+/* line 393, ../sass/pages/sections.scss */
+.section11-img {
+  margin: 19px 2px 6px 10px;
+}
+
+/* line 396, ../sass/pages/sections.scss */
+.rating {
+  float: left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+/* line 402, ../sass/pages/sections.scss */
+.rating:not(:checked) > input {
+  position: relative;
+  top: -9999px;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* line 408, ../sass/pages/sections.scss */
+.rating:not(:checked) > label {
+  float: right;
+  width: 1em;
+  padding: 0 .1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #DDDDDD;
+}
+
+/* line 420, ../sass/pages/sections.scss */
+.rating:not(:checked) > label:before {
+  content: '★ ';
+}
+
+/* line 424, ../sass/pages/sections.scss */
+.rating > input:checked ~ label {
+  color: #FF7700;
+}
+
+/* line 428, ../sass/pages/sections.scss */
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #FFD700;
+}
+
+/* line 433, ../sass/pages/sections.scss */
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #EEAA00;
+}
+
+/* line 441, ../sass/pages/sections.scss */
+.rating > label:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}

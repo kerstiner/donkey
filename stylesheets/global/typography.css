@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Gibson-Regular";
+  src: url(../fonts/Gibson-Regular.ttf);
+}
+@font-face {
+  font-family: "Gibson-Light";
+  src: url(../fonts/Gibson-Light.otf);
+}
+@font-face {
+  font-family: "Gibson-SemiBold";
+  src: url(../fonts/Gibson-SemiBold.otf);
+}
+@font-face {
+  font-family: "EBGaramond08-Regular";
+  src: url(../fonts/EBGaramond08-Regular.ttf);
+}
+@font-face {
+  font-family: "HKGrotesk-Regular";
+  src: url(../fonts/HKGrotesk-Regular.otf);
+}

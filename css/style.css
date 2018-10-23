@@ -98,43 +98,6 @@
 	padding-top: 19px;
   padding-left: 20px;
 }
-.li{
-	width: 20px;
-  height: 27px;
-  font-family: "Gibson-SemiBold", sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.17;
-  letter-spacing: 0.7px;
-  color: #00c7f7;
-
-}
-.b{
-	width: 94px;
-  height: 47px;
-  font-family: "Gibson-SemiBold", sans-serif;
-  font-size: 73px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.29;
-  letter-spacing: normal;
-  color: #00c7f7;
-}
-.er{
-	width: 25px;
-  height: 27px;
-  font-family: "Gibson-SemiBold", sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.17;
-  letter-spacing: 0.7px;
-  color: #00c7f7;
-}
 .avatar{
 	border-radius: 30px;
   margin-right: 20px;
@@ -160,7 +123,6 @@
 	padding: 20px 20px 20px 20px;
 }
 .search .search-box{
-	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
 	font-family: "Gibson-Light",sans-serif;
 	border: none;
 	width: 659px;
