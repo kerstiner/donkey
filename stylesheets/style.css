@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Gibson-Regular";
   src: url(../fonts/Gibson-Regular.ttf);
@@ -20,22 +19,31 @@
   src: url(../fonts/HKGrotesk-Regular.otf);
 }
 /* line 1, ../sass/pages/sections.scss */
+hr {
+  padding-top: 19px;
+}
+
+/* line 4, ../sass/pages/sections.scss */
 .section1 {
   padding: 20px 20px 20px 20px;
 }
 
-/* line 8, ../sass/pages/sections.scss */
-.fa-bell .fa-inbox .fa-caret-down {
+/* line 7, ../sass/pages/sections.scss */
+.fa-bell {
   margin-right: 20px;
 }
 
-/* line 19, ../sass/pages/sections.scss */
-.col-md-4 .nav-profpic .avatar {
-  width: 36px;
-  height: 36px;
+/* line 10, ../sass/pages/sections.scss */
+.fa-inbox {
+  margin-right: 20px;
 }
 
-/* line 28, ../sass/pages/sections.scss */
+/* line 13, ../sass/pages/sections.scss */
+.fa-caret-down {
+  margin-right: 20px;
+}
+
+/* line 18, ../sass/pages/sections.scss */
 .search .search-box {
   font-family: "Gibson-Light", sans-serif;
   border: none;
@@ -46,69 +54,8 @@
   background-image: linear-gradient(to left, #f5f7fc, #f5f7fc);
 }
 
-/* line 38, ../sass/pages/sections.scss */
-.names-section4A {
-  margin-left: 12px;
-}
-/* line 41, ../sass/pages/sections.scss */
-.names-section4A .names-section4 {
-  margin-left: 63px;
-  width: 101px;
-  height: 18px;
-  font-family: "Gibson-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.29;
-  letter-spacing: 0.4px;
-  color: #707070;
-}
-
-/* line 55, ../sass/pages/sections.scss */
-.fa-heart {
-  width: 16px;
-}
-/* line 60, ../sass/pages/sections.scss */
-.fa-heart .fa-share-alt .fa-bookmark {
-  margin-right: 10px;
-  width: 11px;
-  height: 14px;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: left;
-  color: #008aaa;
-}
-
-/* line 77, ../sass/pages/sections.scss */
-.fluffsquad .fluffsquad-section4 {
-  margin-left: 70px;
-}
-/* line 80, ../sass/pages/sections.scss */
-.fluffsquad .fluffsquad-section4 .fluffsquad-section11 {
-  border-radius: 30px;
-  width: 40px;
-  height: 40px;
-}
-
-/* line 87, ../sass/pages/sections.scss */
-.side-comment {
-  padding-bottom: 49px;
-}
-/* line 90, ../sass/pages/sections.scss */
-.side-comment .side-comment1 {
-  padding-bottom: 53px;
-  padding-top: 17px;
-}
-/* line 94, ../sass/pages/sections.scss */
-.side-comment .side-comment1 .side-comment2 {
-  padding-top: 40px;
-  width: 459px;
-  height: 44px;
+/* line 32, ../sass/pages/sections.scss */
+.section4 .col-md-7 .para {
   font-family: "HKGrotesk-Regular", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -116,22 +63,24 @@
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
+  text-align: left;
   color: var(--charcoal-grey);
 }
 
-/* line 109, ../sass/pages/sections.scss */
+/* line 45, ../sass/pages/sections.scss */
 .mini-title {
-  width: 129px;
-  height: 31px;
+  font-family: "Gibson-Regular", sans-serif;
   font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
   line-height: 0.42;
   letter-spacing: 0.7px;
   color: #707070;
 }
-/* line 117, ../sass/pages/sections.scss */
-.mini-title .mini-title2 {
-  width: 126px;
-  height: 20px;
+
+/* line 55, ../sass/pages/sections.scss */
+.mini-title2 {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -142,25 +91,83 @@
   color: #00c7f7;
 }
 
-/* line 130, ../sass/pages/sections.scss */
-.section3-sub1 {
-  padding: 20px 20px 20px 20px;
-}
-/* line 133, ../sass/pages/sections.scss */
-.section3-sub1 .section3-sub2 {
-  margin-top: 11px;
+/* line 66, ../sass/pages/sections.scss */
+.hours {
+  font-family: "Gibson-Light";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #9ea9b1;
 }
 
-/* line 138, ../sass/pages/sections.scss */
+/* line 75, ../sass/pages/sections.scss */
+.hours1 {
+  margin-left: 8px;
+  font-family: "Gibson-Light";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #9ea9b1;
+}
+
+/* line 85, ../sass/pages/sections.scss */
+.hours2 {
+  margin-left: 58px;
+  font-family: "Gibson-Light";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #9ea9b1;
+}
+
+/* line 95, ../sass/pages/sections.scss */
 .names {
-  width: 101px;
-  height: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  margin-bottom: 0px;
   color: #707070;
 }
-/* line 143, ../sass/pages/sections.scss */
-.names .hashtag {
-  width: 62px;
-  height: 18px;
+
+/* line 106, ../sass/pages/sections.scss */
+.names-section4 {
+  margin-left: 61px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  color: #707070;
+}
+
+/* line 117, ../sass/pages/sections.scss */
+.names-section4A {
+  margin-bottom: 0px;
+  margin-left: 9px;
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.29;
+  letter-spacing: 0.4px;
+  color: #707070;
+}
+
+/* line 129, ../sass/pages/sections.scss */
+.hashtag {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -171,71 +178,26 @@
   color: #008aaa;
 }
 
-/* line 157, ../sass/pages/sections.scss */
-hr {
-  padding-top: 19px;
-}
-
-/* line 160, ../sass/pages/sections.scss */
-.bold {
-  width: 110px;
-  height: 22px;
-  font-family: "Gibson-Semibold", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.56;
-  letter-spacing: 0.5px;
-  color: #707070;
-}
-
-/* line 173, ../sass/pages/sections.scss */
-.rectangle {
-  width: 258.4px;
-  height: 424.5px;
-  box-shadow: 0 3px 6px 0 rgba(227, 227, 227, 0.16);
-  border: solid 1px #f7f7f7;
-  background-color: #FFFFFF;
-}
-
-/* line 180, ../sass/pages/sections.scss */
-.para {
-  width: 700px;
-  height: 43px;
-  font-family: "HKGrotesk-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: var(--charcoal-grey);
-}
-
-/* line 193, ../sass/pages/sections.scss */
+/* line 139, ../sass/pages/sections.scss */
 .nav-nav {
   padding-top: 42px;
 }
 
-/* line 196, ../sass/pages/sections.scss */
+/* line 142, ../sass/pages/sections.scss */
 .nav-nav1 {
   padding-top: 19px;
   padding-left: 20px;
 }
 
-/* line 200, ../sass/pages/sections.scss */
+/* line 146, ../sass/pages/sections.scss */
 .avatar {
   border-radius: 30px;
   margin-right: 20px;
 }
 
-/* line 204, ../sass/pages/sections.scss */
+/* line 150, ../sass/pages/sections.scss */
 .nav-link {
   margin-right: 64px;
-  width: 47px;
-  height: 20px;
   font-family: "Gibson-Regular", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -246,20 +208,24 @@ hr {
   color: #000000;
 }
 
-/* line 218, ../sass/pages/sections.scss */
+/* line 165, ../sass/pages/sections.scss */
+.col-md-4 .nav-profpic .avatar {
+  width: 36px;
+  height: 36px;
+}
+
+/* line 171, ../sass/pages/sections.scss */
 .section2 {
   padding: 20px 20px 20px 20px;
 }
 
-/* line 222, ../sass/pages/sections.scss */
+/* line 174, ../sass/pages/sections.scss */
 .section3 {
   padding: 5px 68px 0 3px;
 }
 
-/* line 225, ../sass/pages/sections.scss */
+/* line 177, ../sass/pages/sections.scss */
 .section3-a {
-  width: 62px;
-  height: 18px;
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -271,7 +237,18 @@ hr {
   color: #808080;
 }
 
-/* line 238, ../sass/pages/sections.scss */
+/* line 188, ../sass/pages/sections.scss */
+.section3-sub1 {
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 191, ../sass/pages/sections.scss */
+.section3-sub2 {
+  margin-top: 11px;
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 195, ../sass/pages/sections.scss */
 .section3-button {
   color: #FFFFFF;
   width: 184px;
@@ -281,17 +258,54 @@ hr {
   background-color: #00c7f7;
 }
 
-/* line 247, ../sass/pages/sections.scss */
+/* line 204, ../sass/pages/sections.scss */
 .button-section3 {
   margin-bottom: 66px;
 }
 
-/* line 250, ../sass/pages/sections.scss */
+/* line 207, ../sass/pages/sections.scss */
 .section4 {
   padding-bottom: 80px;
 }
 
-/* line 253, ../sass/pages/sections.scss */
+/* line 210, ../sass/pages/sections.scss */
+.checked {
+  color: #ff5c3e;
+}
+
+/* line 213, ../sass/pages/sections.scss */
+.unchecked {
+  color: #e8e8e8;
+}
+
+/* line 217, ../sass/pages/sections.scss */
+.fluffsquad-section4 {
+  margin-left: 70px;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 223, ../sass/pages/sections.scss */
+.recent {
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: 1.4px;
+  color: var(--silver);
+}
+
+/* line 234, ../sass/pages/sections.scss */
+.side-littleavatar {
+  border-radius: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 239, ../sass/pages/sections.scss */
 .section4-side {
   background-color: #FFFFFF;
   width: 142px;
@@ -307,7 +321,13 @@ hr {
   color: #00c7f7;
 }
 
-/* line 267, ../sass/pages/sections.scss */
+/* line 253, ../sass/pages/sections.scss */
+.star-design {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* line 257, ../sass/pages/sections.scss */
 .section4-sidecomment {
   margin-top: 32px;
   width: 399px;
@@ -315,7 +335,7 @@ hr {
   border-radius: 20px;
   border: solid 1px #f5f7fc;
   background-color: #FFFFFF;
-  font-family: "Gibson-Light", sans-serif;
+  font-family: Gibson;
   font-size: 14px;
   font-weight: 300;
   font-style: normal;
@@ -325,37 +345,8 @@ hr {
   color: #b7bbc7;
 }
 
-/* line 283, ../sass/pages/sections.scss */
-.recent {
-  width: 137px;
-  height: 18px;
-  font-family: "Gibson-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.71;
-  letter-spacing: 1.4px;
-  color: var(--silver);
-}
-
-/* line 296, ../sass/pages/sections.scss */
-.side-littleavatar {
-  border-radius: 30px;
-  width: 20px;
-  height: 20px;
-}
-
-/* line 301, ../sass/pages/sections.scss */
-.star-design {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-/* line 306, ../sass/pages/sections.scss */
+/* line 273, ../sass/pages/sections.scss */
 .side-hashtag {
-  width: 80px;
-  height: 18px;
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -366,56 +357,140 @@ hr {
   color: #008aaa;
 }
 
-/* line 319, ../sass/pages/sections.scss */
+/* line 283, ../sass/pages/sections.scss */
+.fa-heart {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #008aaa;
+}
+
+/* line 294, ../sass/pages/sections.scss */
+.fa-share-alt {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #008aaa;
+}
+
+/* line 305, ../sass/pages/sections.scss */
+.fa-bookmark {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #008aaa;
+}
+
+/* line 316, ../sass/pages/sections.scss */
 .designinstruct {
   width: 606px;
   height: 262px;
 }
 
-/* line 323, ../sass/pages/sections.scss */
+/* line 320, ../sass/pages/sections.scss */
 .books {
   padding-bottom: 50px;
   height: 331px;
   width: 190px;
 }
 
-/* line 329, ../sass/pages/sections.scss */
+/* line 325, ../sass/pages/sections.scss */
+.fluffsquad {
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 330, ../sass/pages/sections.scss */
 .section4-sub1 {
   padding: 20px 20px 20px 20px;
 }
 
-/* line 332, ../sass/pages/sections.scss */
+/* line 333, ../sass/pages/sections.scss */
 .side-pic1 {
   padding-top: 20px;
 }
 
 /* line 336, ../sass/pages/sections.scss */
+.side-comment {
+  padding-bottom: 49px;
+  font-family: "HKGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+/* line 347, ../sass/pages/sections.scss */
+.side-comment1 {
+  padding-bottom: 53px;
+  padding-top: 17px;
+  font-family: "HKGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+/* line 359, ../sass/pages/sections.scss */
+.side-comment2 {
+  padding-top: 40px;
+  font-family: "HKGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
+
+/* line 370, ../sass/pages/sections.scss */
 .side-recent {
   padding: 6px 0px 20px 20px;
 }
 
-/* line 339, ../sass/pages/sections.scss */
+/* line 373, ../sass/pages/sections.scss */
 .side-pic {
   padding-bottom: 29px;
-  width: 435px;
-  height: 222px;
   padding-top: 49px;
 }
 
-/* line 345, ../sass/pages/sections.scss */
+/* line 377, ../sass/pages/sections.scss */
 .section7 {
   padding-bottom: 80px;
 }
 
-/* line 348, ../sass/pages/sections.scss */
+/* line 380, ../sass/pages/sections.scss */
 .section7-images {
   padding-bottom: 20px;
-  width: 256px;
-  height: 315px;
+  width: 263px;
+  height: 281px;
   border-radius: 2px;
 }
 
-/* line 355, ../sass/pages/sections.scss */
+/* line 387, ../sass/pages/sections.scss */
 .section7-content {
   width: 300px;
   height: 41px;
@@ -429,24 +504,24 @@ hr {
   color: var(--charcoal-grey);
 }
 
-/* line 368, ../sass/pages/sections.scss */
+/* line 399, ../sass/pages/sections.scss */
 .section8 {
   padding-bottom: 80px;
 }
 
-/* line 371, ../sass/pages/sections.scss */
+/* line 402, ../sass/pages/sections.scss */
 .section11 {
   padding-bottom: 200px;
 }
 
-/* line 374, ../sass/pages/sections.scss */
+/* line 405, ../sass/pages/sections.scss */
 .section11-images {
   margin: 33px 19px 15px 27px;
   width: 187.4px;
   height: 284.8px;
 }
 
-/* line 379, ../sass/pages/sections.scss */
+/* line 410, ../sass/pages/sections.scss */
 .section11-price {
   border: none;
   width: 74px;
@@ -462,67 +537,122 @@ hr {
   color: #FFFFFF;
 }
 
-/* line 393, ../sass/pages/sections.scss */
+/* line 424, ../sass/pages/sections.scss */
+.section11-img1 {
+  right: 18px;
+  left: 25px;
+  bottom: 29px;
+  z-index: 1;
+  position: absolute;
+}
+
+/* line 431, ../sass/pages/sections.scss */
 .section11-img {
   margin: 19px 2px 6px 10px;
 }
 
-/* line 396, ../sass/pages/sections.scss */
-.rating {
-  float: left;
+/* line 434, ../sass/pages/sections.scss */
+.fluffsquad-section11 {
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
 }
 
-/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
-   follow these rules. Every browser that supports :checked also supports :not(), so
-   it doesn’t make the test unnecessarily selective */
-/* line 402, ../sass/pages/sections.scss */
-.rating:not(:checked) > input {
-  position: relative;
-  top: -9999px;
-  clip: rect(0, 0, 0, 0);
+/* line 439, ../sass/pages/sections.scss */
+.bold {
+  font-family: "Gibson-Semibold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: 0.5px;
+  color: #707070;
 }
 
-/* line 408, ../sass/pages/sections.scss */
-.rating:not(:checked) > label {
-  float: right;
-  width: 1em;
-  padding: 0 .1em;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1.2;
-  color: #DDDDDD;
+/* line 449, ../sass/pages/sections.scss */
+.rectangle {
+  width: 258.4px;
+  height: 424.5px;
+  box-shadow: 0 3px 6px 0 rgba(227, 227, 227, 0.16);
+  border: solid 1px #f7f7f7;
+  background-color: #FFFFFF;
 }
 
-/* line 420, ../sass/pages/sections.scss */
-.rating:not(:checked) > label:before {
-  content: '★ ';
+/* line 456, ../sass/pages/sections.scss */
+.rectangle1 {
+  width: 263.4px;
+  height: 378.9px;
+  opacity: 0.1;
+  background-color: #FFFFFF;
 }
 
-/* line 424, ../sass/pages/sections.scss */
-.rating > input:checked ~ label {
-  color: #FF7700;
+/* line 462, ../sass/pages/sections.scss */
+.animated {
+  left: 49px;
+  top: 154px;
+  z-index: 1;
+  position: absolute;
 }
 
-/* line 428, ../sass/pages/sections.scss */
-.rating:not(:checked) > label:hover,
-.rating:not(:checked) > label:hover ~ label {
-  color: #FFD700;
+/* line 468, ../sass/pages/sections.scss */
+.viewdetails {
+  font-family: "Gibson-Regular", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #008aaa;
 }
 
-/* line 433, ../sass/pages/sections.scss */
-.rating > input:checked + label:hover,
-.rating > input:checked + label:hover ~ label,
-.rating > input:checked ~ label:hover,
-.rating > input:checked ~ label:hover ~ label,
-.rating > label:hover ~ input:checked ~ label {
-  color: #EEAA00;
+/* line 478, ../sass/pages/sections.scss */
+.buynow {
+  font-size: 18px;
+  font-family: "Gibson-Regular", sans-serif;
+  width: 206px;
+  height: 58px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  border: solid 1px #00c7f7;
+  background-color: #00c7f7;
 }
 
-/* line 441, ../sass/pages/sections.scss */
-.rating > label:active {
-  position: relative;
-  top: 2px;
-  left: 2px;
+/* line 488, ../sass/pages/sections.scss */
+.ellipse {
+  color: #d0e2ed;
+  right: 280px;
+  bottom: 188px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 3px 10px 0 rgba(22, 65, 101, 0.16);
+  background-color: #FFFFFF;
+}
+
+/* line 500, ../sass/pages/sections.scss */
+.ellipse1 {
+  color: #d0e2ed;
+  left: 281px;
+  bottom: 188px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 3px 10px 0 rgba(22, 65, 101, 0.16);
+  background-color: #FFFFFF;
+}
+
+/* line 512, ../sass/pages/sections.scss */
+.fa-angle-left {
+  margin-top: 9px;
+}
+
+/* line 515, ../sass/pages/sections.scss */
+.fa-angle-right {
+  margin-top: 9px;
 }
