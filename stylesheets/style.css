@@ -116,6 +116,7 @@ hr {
 
 /* line 85, ../sass/pages/sections.scss */
 .hours2 {
+  margin-top: -14px;
   margin-left: 58px;
   font-family: "Gibson-Light";
   font-size: 12px;
@@ -126,7 +127,7 @@ hr {
   color: #9ea9b1;
 }
 
-/* line 95, ../sass/pages/sections.scss */
+/* line 96, ../sass/pages/sections.scss */
 .names {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
@@ -139,7 +140,7 @@ hr {
   color: #707070;
 }
 
-/* line 106, ../sass/pages/sections.scss */
+/* line 107, ../sass/pages/sections.scss */
 .names-section4 {
   margin-left: 61px;
   font-family: "Gibson-Regular", sans-serif;
@@ -152,7 +153,7 @@ hr {
   color: #707070;
 }
 
-/* line 117, ../sass/pages/sections.scss */
+/* line 118, ../sass/pages/sections.scss */
 .names-section4A {
   margin-bottom: 0px;
   margin-left: 9px;
@@ -166,7 +167,7 @@ hr {
   color: #707070;
 }
 
-/* line 129, ../sass/pages/sections.scss */
+/* line 130, ../sass/pages/sections.scss */
 .hashtag {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
@@ -178,24 +179,24 @@ hr {
   color: #008aaa;
 }
 
-/* line 139, ../sass/pages/sections.scss */
+/* line 140, ../sass/pages/sections.scss */
 .nav-nav {
   padding-top: 42px;
 }
 
-/* line 142, ../sass/pages/sections.scss */
+/* line 143, ../sass/pages/sections.scss */
 .nav-nav1 {
   padding-top: 19px;
   padding-left: 20px;
 }
 
-/* line 146, ../sass/pages/sections.scss */
+/* line 147, ../sass/pages/sections.scss */
 .avatar {
   border-radius: 30px;
   margin-right: 20px;
 }
 
-/* line 150, ../sass/pages/sections.scss */
+/* line 151, ../sass/pages/sections.scss */
 .nav-link {
   margin-right: 64px;
   font-family: "Gibson-Regular", sans-serif;
@@ -208,23 +209,23 @@ hr {
   color: #000000;
 }
 
-/* line 165, ../sass/pages/sections.scss */
+/* line 166, ../sass/pages/sections.scss */
 .col-md-4 .nav-profpic .avatar {
   width: 36px;
   height: 36px;
 }
 
-/* line 171, ../sass/pages/sections.scss */
+/* line 172, ../sass/pages/sections.scss */
 .section2 {
   padding: 20px 20px 20px 20px;
 }
 
-/* line 174, ../sass/pages/sections.scss */
+/* line 175, ../sass/pages/sections.scss */
 .section3 {
   padding: 5px 68px 0 3px;
 }
 
-/* line 177, ../sass/pages/sections.scss */
+/* line 178, ../sass/pages/sections.scss */
 .section3-a {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
@@ -237,18 +238,18 @@ hr {
   color: #808080;
 }
 
-/* line 188, ../sass/pages/sections.scss */
+/* line 189, ../sass/pages/sections.scss */
 .section3-sub1 {
   padding: 20px 20px 20px 20px;
 }
 
-/* line 191, ../sass/pages/sections.scss */
+/* line 192, ../sass/pages/sections.scss */
 .section3-sub2 {
   margin-top: 11px;
   padding: 20px 20px 20px 20px;
 }
 
-/* line 195, ../sass/pages/sections.scss */
+/* line 196, ../sass/pages/sections.scss */
 .section3-button {
   color: #FFFFFF;
   width: 184px;
@@ -258,27 +259,27 @@ hr {
   background-color: #00c7f7;
 }
 
-/* line 204, ../sass/pages/sections.scss */
+/* line 205, ../sass/pages/sections.scss */
 .button-section3 {
   margin-bottom: 66px;
 }
 
-/* line 207, ../sass/pages/sections.scss */
+/* line 208, ../sass/pages/sections.scss */
 .section4 {
   padding-bottom: 80px;
 }
 
-/* line 210, ../sass/pages/sections.scss */
+/* line 211, ../sass/pages/sections.scss */
 .checked {
   color: #ff5c3e;
 }
 
-/* line 213, ../sass/pages/sections.scss */
+/* line 214, ../sass/pages/sections.scss */
 .unchecked {
   color: #e8e8e8;
 }
 
-/* line 217, ../sass/pages/sections.scss */
+/* line 218, ../sass/pages/sections.scss */
 .fluffsquad-section4 {
   margin-left: 70px;
   border-radius: 30px;
@@ -286,7 +287,7 @@ hr {
   height: 40px;
 }
 
-/* line 223, ../sass/pages/sections.scss */
+/* line 224, ../sass/pages/sections.scss */
 .recent {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
@@ -298,14 +299,14 @@ hr {
   color: var(--silver);
 }
 
-/* line 234, ../sass/pages/sections.scss */
+/* line 235, ../sass/pages/sections.scss */
 .side-littleavatar {
   border-radius: 30px;
   width: 20px;
   height: 20px;
 }
 
-/* line 239, ../sass/pages/sections.scss */
+/* line 240, ../sass/pages/sections.scss */
 .section4-side {
   background-color: #FFFFFF;
   width: 142px;
@@ -321,13 +322,13 @@ hr {
   color: #00c7f7;
 }
 
-/* line 253, ../sass/pages/sections.scss */
+/* line 254, ../sass/pages/sections.scss */
 .star-design {
   padding-top: 20px;
   padding-left: 20px;
 }
 
-/* line 257, ../sass/pages/sections.scss */
+/* line 258, ../sass/pages/sections.scss */
 .section4-sidecomment {
   margin-top: 32px;
   width: 399px;
@@ -345,7 +346,7 @@ hr {
   color: #b7bbc7;
 }
 
-/* line 273, ../sass/pages/sections.scss */
+/* line 274, ../sass/pages/sections.scss */
 .side-hashtag {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 14px;
@@ -357,7 +358,7 @@ hr {
   color: #008aaa;
 }
 
-/* line 283, ../sass/pages/sections.scss */
+/* line 284, ../sass/pages/sections.scss */
 .fa-heart {
   margin-right: 10px;
   font-size: 14px;
@@ -370,7 +371,7 @@ hr {
   color: #008aaa;
 }
 
-/* line 294, ../sass/pages/sections.scss */
+/* line 295, ../sass/pages/sections.scss */
 .fa-share-alt {
   margin-right: 10px;
   font-size: 14px;
@@ -383,7 +384,7 @@ hr {
   color: #008aaa;
 }
 
-/* line 305, ../sass/pages/sections.scss */
+/* line 306, ../sass/pages/sections.scss */
 .fa-bookmark {
   margin-right: 10px;
   font-size: 14px;
@@ -396,37 +397,37 @@ hr {
   color: #008aaa;
 }
 
-/* line 316, ../sass/pages/sections.scss */
+/* line 317, ../sass/pages/sections.scss */
 .designinstruct {
   width: 606px;
   height: 262px;
 }
 
-/* line 320, ../sass/pages/sections.scss */
+/* line 321, ../sass/pages/sections.scss */
 .books {
   padding-bottom: 50px;
   height: 331px;
   width: 190px;
 }
 
-/* line 325, ../sass/pages/sections.scss */
+/* line 326, ../sass/pages/sections.scss */
 .fluffsquad {
   border-radius: 30px;
   width: 40px;
   height: 40px;
 }
 
-/* line 330, ../sass/pages/sections.scss */
+/* line 331, ../sass/pages/sections.scss */
 .section4-sub1 {
   padding: 20px 20px 20px 20px;
 }
 
-/* line 333, ../sass/pages/sections.scss */
+/* line 334, ../sass/pages/sections.scss */
 .side-pic1 {
   padding-top: 20px;
 }
 
-/* line 336, ../sass/pages/sections.scss */
+/* line 337, ../sass/pages/sections.scss */
 .side-comment {
   padding-bottom: 49px;
   font-family: "HKGrotesk-Regular", sans-serif;
@@ -439,7 +440,7 @@ hr {
   color: var(--charcoal-grey);
 }
 
-/* line 347, ../sass/pages/sections.scss */
+/* line 348, ../sass/pages/sections.scss */
 .side-comment1 {
   padding-bottom: 53px;
   padding-top: 17px;
@@ -453,7 +454,7 @@ hr {
   color: var(--charcoal-grey);
 }
 
-/* line 359, ../sass/pages/sections.scss */
+/* line 360, ../sass/pages/sections.scss */
 .side-comment2 {
   padding-top: 40px;
   font-family: "HKGrotesk-Regular", sans-serif;
@@ -466,23 +467,23 @@ hr {
   color: var(--charcoal-grey);
 }
 
-/* line 370, ../sass/pages/sections.scss */
+/* line 371, ../sass/pages/sections.scss */
 .side-recent {
   padding: 6px 0px 20px 20px;
 }
 
-/* line 373, ../sass/pages/sections.scss */
+/* line 374, ../sass/pages/sections.scss */
 .side-pic {
   padding-bottom: 29px;
   padding-top: 49px;
 }
 
-/* line 377, ../sass/pages/sections.scss */
+/* line 378, ../sass/pages/sections.scss */
 .section7 {
   padding-bottom: 80px;
 }
 
-/* line 380, ../sass/pages/sections.scss */
+/* line 381, ../sass/pages/sections.scss */
 .section7-images {
   padding-bottom: 20px;
   width: 263px;
@@ -490,7 +491,7 @@ hr {
   border-radius: 2px;
 }
 
-/* line 387, ../sass/pages/sections.scss */
+/* line 388, ../sass/pages/sections.scss */
 .section7-content {
   width: 300px;
   height: 41px;
@@ -504,24 +505,24 @@ hr {
   color: var(--charcoal-grey);
 }
 
-/* line 399, ../sass/pages/sections.scss */
+/* line 400, ../sass/pages/sections.scss */
 .section8 {
   padding-bottom: 80px;
 }
 
-/* line 402, ../sass/pages/sections.scss */
+/* line 403, ../sass/pages/sections.scss */
 .section11 {
   padding-bottom: 200px;
 }
 
-/* line 405, ../sass/pages/sections.scss */
+/* line 406, ../sass/pages/sections.scss */
 .section11-images {
   margin: 33px 19px 15px 27px;
   width: 187.4px;
   height: 284.8px;
 }
 
-/* line 410, ../sass/pages/sections.scss */
+/* line 411, ../sass/pages/sections.scss */
 .section11-price {
   border: none;
   width: 74px;
@@ -537,7 +538,7 @@ hr {
   color: #FFFFFF;
 }
 
-/* line 424, ../sass/pages/sections.scss */
+/* line 425, ../sass/pages/sections.scss */
 .section11-img1 {
   right: 18px;
   left: 25px;
@@ -546,19 +547,19 @@ hr {
   position: absolute;
 }
 
-/* line 431, ../sass/pages/sections.scss */
+/* line 432, ../sass/pages/sections.scss */
 .section11-img {
   margin: 19px 2px 6px 10px;
 }
 
-/* line 434, ../sass/pages/sections.scss */
+/* line 435, ../sass/pages/sections.scss */
 .fluffsquad-section11 {
   border-radius: 30px;
   width: 40px;
   height: 40px;
 }
 
-/* line 439, ../sass/pages/sections.scss */
+/* line 440, ../sass/pages/sections.scss */
 .bold {
   font-family: "Gibson-Semibold", sans-serif;
   font-size: 18px;
@@ -570,7 +571,7 @@ hr {
   color: #707070;
 }
 
-/* line 449, ../sass/pages/sections.scss */
+/* line 450, ../sass/pages/sections.scss */
 .rectangle {
   width: 258.4px;
   height: 424.5px;
@@ -579,7 +580,7 @@ hr {
   background-color: #FFFFFF;
 }
 
-/* line 456, ../sass/pages/sections.scss */
+/* line 457, ../sass/pages/sections.scss */
 .rectangle1 {
   width: 263.4px;
   height: 378.9px;
@@ -587,7 +588,7 @@ hr {
   background-color: #FFFFFF;
 }
 
-/* line 462, ../sass/pages/sections.scss */
+/* line 463, ../sass/pages/sections.scss */
 .animated {
   left: 49px;
   top: 154px;
@@ -595,7 +596,7 @@ hr {
   position: absolute;
 }
 
-/* line 468, ../sass/pages/sections.scss */
+/* line 469, ../sass/pages/sections.scss */
 .viewdetails {
   font-family: "Gibson-Regular", sans-serif;
   font-size: 17px;
@@ -607,7 +608,7 @@ hr {
   color: #008aaa;
 }
 
-/* line 478, ../sass/pages/sections.scss */
+/* line 479, ../sass/pages/sections.scss */
 .buynow {
   font-size: 18px;
   font-family: "Gibson-Regular", sans-serif;
@@ -619,7 +620,7 @@ hr {
   background-color: #00c7f7;
 }
 
-/* line 488, ../sass/pages/sections.scss */
+/* line 489, ../sass/pages/sections.scss */
 .ellipse {
   color: #d0e2ed;
   right: 280px;
@@ -633,7 +634,7 @@ hr {
   background-color: #FFFFFF;
 }
 
-/* line 500, ../sass/pages/sections.scss */
+/* line 501, ../sass/pages/sections.scss */
 .ellipse1 {
   color: #d0e2ed;
   left: 281px;
@@ -647,12 +648,12 @@ hr {
   background-color: #FFFFFF;
 }
 
-/* line 512, ../sass/pages/sections.scss */
+/* line 513, ../sass/pages/sections.scss */
 .fa-angle-left {
   margin-top: 9px;
 }
 
-/* line 515, ../sass/pages/sections.scss */
+/* line 516, ../sass/pages/sections.scss */
 .fa-angle-right {
   margin-top: 9px;
 }
